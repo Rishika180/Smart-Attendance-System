@@ -75,7 +75,7 @@ npm install
 npm run dev
 ```
 
-Opens at `http://localhost:5173`. Your browser will ask for camera
+Opens at `http://localhost:5173`. The browser will ask for camera
 permission on the Register and Mark Attendance screens — allow it.
 
 ### Order to use it in
@@ -88,7 +88,7 @@ permission on the Register and Mark Attendance screens — allow it.
 4. Go to **Attendance Records** to see the structured log, filterable by
    date/class.
 
-## Notes / things you may want to tune
+## Notes / things may want to tune
 
 - `RECOGNITION_THRESHOLD` in `backend/app/face_engine.py` controls how
   strict matching is (lower = stricter). 0.9 is a reasonable default for
